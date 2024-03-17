@@ -7,12 +7,57 @@
 
 import SwiftUI
 
-struct IncomelistView: View {
+struct IncomeListView: View {
+    @ObservedObject var manager: FinancialDataManager
+    @State private var showingAddIncomeView = false
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            
+            List {
+                ForEach(manager.IncomeDetails.indices, id: \.self) {
+                    index in
+                    NavigationLink(destination: IncomeDetailsView(manager: manager, incomeSourceIndex: index))
+                    {
+                        HStack{
+                            Text(manager.IncomeDetails[index].Name)
+                            Spacer()
+                            Text("\(manager.IncomeDetails[index].Name): $\(manager.IncomeDetails[index].Amount, specifier: "%.2f")")
+                        }
+                    }
+                }
+                .onDelete(perform: deleteIncomeSource)
+                Text("Total Income: $\(manager.TotalIncome, specifier: "%.2f")")
+                    .font(.title2)
+                    .padding(6)
+                    .frame(maxWidth: .infinity)
+                Button("Add New  Income Sources")
+                {
+                    showingAddIncomeView = true
+                }
+                .buttonStyle(.borderedProminent)
+                .padding()
+                .frame(maxWidth: .infinity)
+            }
+        }
+        .navigationTitle("Income Sources")
+        .toolbar {
+            EditButton()
+        }
+        .sheet(isPresented: $showingAddIncomeView) {
+            AddIncomeView(manager: manager){
+                showingAddIncomeView = false
+            }
+        }
+    }
+
+    func deleteIncomeSource(at offsets: IndexSet) {
+        manager.IncomeDetails.remove(atOffsets: offsets)
     }
 }
-
-#Preview {
-    IncomelistView()
+struct IncomeListView_Previews: PreviewProvider {
+    static var previews: some View {
+        let manager = FinancialDataManager()
+        IncomeListView(manager: manager)
+    }
 }

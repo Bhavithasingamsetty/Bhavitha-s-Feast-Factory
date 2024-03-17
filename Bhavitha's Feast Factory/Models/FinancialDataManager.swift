@@ -48,8 +48,6 @@ class FinancialDataManager: ObservableObject {
             ExpenseDetail(Name: "Licenses and Permits", Amount: 500.00, Details: "Annual renewal of liquor license and health department permits."),
             ExpenseDetail(Name: "Insurance", Amount: 1200.00, Details: "Monthly premium for property, liability, and workers' compensation insurance."),
             ExpenseDetail(Name: "Supplies", Amount: 1800.00, Details: "Purchase of napkins, cleaning supplies, and guest check presenters."),
-            ExpenseDetail(Name: "Repairs", Amount: 4300.00, Details: "Emergency plumbing repairs and replacement of a faulty refrigerator unit."),
-            ExpenseDetail(Name: "Technology", Amount: 600.00, Details: "Software subscription fees for POS system and online reservation platform."),
             ExpenseDetail(Name: "Waste Removal", Amount: 300.00, Details: "Monthly contract fee for garbage and recycling services."),
             ExpenseDetail(Name: "Professional Services", Amount: 1500.00, Details: "Quarterly consultation with a restaurant management consultant."),
             ExpenseDetail(Name: "Taxes", Amount: 7000.00, Details: "Estimated quarterly sales and payroll taxes.")

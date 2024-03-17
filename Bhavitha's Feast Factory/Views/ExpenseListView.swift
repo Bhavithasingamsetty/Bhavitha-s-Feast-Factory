@@ -8,11 +8,55 @@
 import SwiftUI
 
 struct ExpenseListView: View {
+    @ObservedObject var manager: FinancialDataManager
+    @State private var showingAddExpenseView = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            List {
+                ForEach(manager.ExpenseDetails) { Expense in
+                    NavigationLink(destination: ExpenseDetailsView(manager: manager, Expenseid : Expense.id))
+                    {
+                        HStack{
+                            Text(Expense.Name)
+                            Spacer()
+                            Text("$\(Expense.Amount, specifier: "%.2f)")")
+                        }
+                    }
+                }
+                .onDelete(perform: deleteExpenseSource)
+                
+                
+                Text("Total Expense : $\(manager.TotalExpenses, specifier: "%.f)")")
+                    .font(.title)
+                    .padding(6)
+                    .frame(maxWidth: .infinity)
+                Button("Add New Expense Source") {
+                    showingAddExpenseView = true
+                }
+                .buttonStyle(.borderedProminent)
+                .padding()
+                .frame(maxWidth: .infinity)
+            }
+            .navigationTitle("Expenses")
+            .toolbar {
+                EditButton()
+                
+            }
+            .sheet(isPresented : $showingAddExpenseView) {
+                AddExpenseView(manager: manager) {
+                    showingAddExpenseView = false
+                }
+            }
+        }
+    }
+    func deleteExpenseSource(at offsets: IndexSet) {
+        manager.ExpenseDetails.remove(atOffsets: offsets)
     }
 }
-
-#Preview {
-    ExpenseListView()
+struct ExpenseListView_Previews: PreviewProvider {
+    static var previews: some View {
+        let samplemanager = FinancialDataManager()
+      ExpenseListView(manager: samplemanager)
+    }
 }

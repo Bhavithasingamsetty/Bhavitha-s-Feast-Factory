@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8607BB0B2BA636F600E3D039 /* Bhavitha_s_Feast_FactoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8607BB0A2BA636F600E3D039 /* Bhavitha_s_Feast_FactoryApp.swift */; };
+		8607BB0D2BA636F600E3D039 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8607BB0C2BA636F600E3D039 /* ContentView.swift */; };
+		8607BB0F2BA636F800E3D039 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8607BB0E2BA636F800E3D039 /* Assets.xcassets */; };
+		8607BB122BA636F800E3D039 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8607BB112BA636F800E3D039 /* Preview Assets.xcassets */; };
+		8607BB1C2BA636F900E3D039 /* Bhavitha_s_Feast_FactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8607BB1B2BA636F900E3D039 /* Bhavitha_s_Feast_FactoryTests.swift */; };
+		8607BB262BA636F900E3D039 /* Bhavitha_s_Feast_FactoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8607BB252BA636F900E3D039 /* Bhavitha_s_Feast_FactoryUITests.swift */; };
+		8607BB282BA636F900E3D039 /* Bhavitha_s_Feast_FactoryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8607BB272BA636F900E3D039 /* Bhavitha_s_Feast_FactoryUITestsLaunchTests.swift */; };
+		8607BB352BA63AA500E3D039 /* UtilitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8607BB342BA63AA500E3D039 /* UtilitiesView.swift */; };
+		8607BB382BA64CB800E3D039 /* FinancialDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8607BB372BA64CB800E3D039 /* FinancialDataManager.swift */; };
+		8607BB3A2BA64F3E00E3D039 /* IncomeDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8607BB392BA64F3E00E3D039 /* IncomeDetailsView.swift */; };
+		8607BB3C2BA64F5E00E3D039 /* IncomeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8607BB3B2BA64F5E00E3D039 /* IncomeListView.swift */; };
+		8607BB3E2BA64F7600E3D039 /* IncomeSourceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8607BB3D2BA64F7600E3D039 /* IncomeSourceModel.swift */; };
+		8607BB402BA64F8D00E3D039 /* AddIncomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8607BB3F2BA64F8D00E3D039 /* AddIncomeView.swift */; };
+		862D07722BA6C90D00941CEA /* ExpenseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862D07712BA6C90D00941CEA /* ExpenseListView.swift */; };
+		862D07742BA6D46000941CEA /* ExpenseDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862D07732BA6D46000941CEA /* ExpenseDetailsView.swift */; };
+		862D07762BA6D4BD00941CEA /* AddExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862D07752BA6D4BD00941CEA /* AddExpenseView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8607BB182BA636F900E3D039 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8607BAFF2BA636F600E3D039 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8607BB062BA636F600E3D039;
+			remoteInfo = "Bhavitha's Feast Factory";
+		};
+		8607BB222BA636F900E3D039 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8607BAFF2BA636F600E3D039 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8607BB062BA636F600E3D039;
+			remoteInfo = "Bhavitha's Feast Factory";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8607BB072BA636F600E3D039 /* Bhavitha's Feast Factory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bhavitha's Feast Factory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8607BB0A2BA636F600E3D039 /* Bhavitha_s_Feast_FactoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bhavitha_s_Feast_FactoryApp.swift; sourceTree = "<group>"; };
+		8607BB0C2BA636F600E3D039 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8607BB0E2BA636F800E3D039 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8607BB112BA636F800E3D039 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8607BB172BA636F900E3D039 /* Bhavitha's Feast FactoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bhavitha's Feast FactoryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8607BB1B2BA636F900E3D039 /* Bhavitha_s_Feast_FactoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bhavitha_s_Feast_FactoryTests.swift; sourceTree = "<group>"; };
+		8607BB212BA636F900E3D039 /* Bhavitha's Feast FactoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bhavitha's Feast FactoryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8607BB252BA636F900E3D039 /* Bhavitha_s_Feast_FactoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bhavitha_s_Feast_FactoryUITests.swift; sourceTree = "<group>"; };
+		8607BB272BA636F900E3D039 /* Bhavitha_s_Feast_FactoryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bhavitha_s_Feast_FactoryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8607BB342BA63AA500E3D039 /* UtilitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilitiesView.swift; sourceTree = "<group>"; };
+		8607BB372BA64CB800E3D039 /* FinancialDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancialDataManager.swift; sourceTree = "<group>"; };
+		8607BB392BA64F3E00E3D039 /* IncomeDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeDetailsView.swift; sourceTree = "<group>"; };
+		8607BB3B2BA64F5E00E3D039 /* IncomeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeListView.swift; sourceTree = "<group>"; };
+		8607BB3D2BA64F7600E3D039 /* IncomeSourceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeSourceModel.swift; sourceTree = "<group>"; };
+		8607BB3F2BA64F8D00E3D039 /* AddIncomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddIncomeView.swift; sourceTree = "<group>"; };
+		862D07712BA6C90D00941CEA /* ExpenseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseListView.swift; sourceTree = "<group>"; };
+		862D07732BA6D46000941CEA /* ExpenseDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseDetailsView.swift; sourceTree = "<group>"; };
+		862D07752BA6D4BD00941CEA /* AddExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8607BB042BA636F600E3D039 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8607BB142BA636F900E3D039 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8607BB1E2BA636F900E3D039 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8607BAFE2BA636F600E3D039 = {
+			isa = PBXGroup;
+			children = (
+				8607BB092BA636F600E3D039 /* Bhavitha's Feast Factory */,
+				8607BB1A2BA636F900E3D039 /* Bhavitha's Feast FactoryTests */,
+				8607BB242BA636F900E3D039 /* Bhavitha's Feast FactoryUITests */,
+				8607BB082BA636F600E3D039 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8607BB082BA636F600E3D039 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8607BB072BA636F600E3D039 /* Bhavitha's Feast Factory.app */,
+				8607BB172BA636F900E3D039 /* Bhavitha's Feast FactoryTests.xctest */,
+				8607BB212BA636F900E3D039 /* Bhavitha's Feast FactoryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8607BB092BA636F600E3D039 /* Bhavitha's Feast Factory */ = {
+			isa = PBXGroup;
+			children = (
+				862D07702BA6B3F200941CEA /* Models */,
+				8607BB362BA64C8400E3D039 /* Views */,
+				8607BB0A2BA636F600E3D039 /* Bhavitha_s_Feast_FactoryApp.swift */,
+				8607BB0E2BA636F800E3D039 /* Assets.xcassets */,
+				8607BB102BA636F800E3D039 /* Preview Content */,
+			);
+			path = "Bhavitha's Feast Factory";
+			sourceTree = "<group>";
+		};
+		8607BB102BA636F800E3D039 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8607BB112BA636F800E3D039 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8607BB1A2BA636F900E3D039 /* Bhavitha's Feast FactoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				8607BB1B2BA636F900E3D039 /* Bhavitha_s_Feast_FactoryTests.swift */,
+			);
+			path = "Bhavitha's Feast FactoryTests";
+			sourceTree = "<group>";
+		};
+		8607BB242BA636F900E3D039 /* Bhavitha's Feast FactoryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8607BB252BA636F900E3D039 /* Bhavitha_s_Feast_FactoryUITests.swift */,
+				8607BB272BA636F900E3D039 /* Bhavitha_s_Feast_FactoryUITestsLaunchTests.swift */,
+			);
+			path = "Bhavitha's Feast FactoryUITests";
+			sourceTree = "<group>";
+		};
+		8607BB362BA64C8400E3D039 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8607BB342BA63AA500E3D039 /* UtilitiesView.swift */,
+				8607BB392BA64F3E00E3D039 /* IncomeDetailsView.swift */,
+				8607BB3B2BA64F5E00E3D039 /* IncomeListView.swift */,
+				8607BB3F2BA64F8D00E3D039 /* AddIncomeView.swift */,
+				862D07712BA6C90D00941CEA /* ExpenseListView.swift */,
+				862D07752BA6D4BD00941CEA /* AddExpenseView.swift */,
+				862D07732BA6D46000941CEA /* ExpenseDetailsView.swift */,
+				8607BB0C2BA636F600E3D039 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		862D07702BA6B3F200941CEA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8607BB3D2BA64F7600E3D039 /* IncomeSourceModel.swift */,
+				8607BB372BA64CB800E3D039 /* FinancialDataManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8607BB062BA636F600E3D039 /* Bhavitha's Feast Factory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8607BB2B2BA636F900E3D039 /* Build configuration list for PBXNativeTarget "Bhavitha's Feast Factory" */;
+			buildPhases = (
+				8607BB032BA636F600E3D039 /* Sources */,
+				8607BB042BA636F600E3D039 /* Frameworks */,
+				8607BB052BA636F600E3D039 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bhavitha's Feast Factory";
+			productName = "Bhavitha's Feast Factory";
+			productReference = 8607BB072BA636F600E3D039 /* Bhavitha's Feast Factory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8607BB162BA636F900E3D039 /* Bhavitha's Feast FactoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8607BB2E2BA636F900E3D039 /* Build configuration list for PBXNativeTarget "Bhavitha's Feast FactoryTests" */;
+			buildPhases = (
+				8607BB132BA636F900E3D039 /* Sources */,
+				8607BB142BA636F900E3D039 /* Frameworks */,
+				8607BB152BA636F900E3D039 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8607BB192BA636F900E3D039 /* PBXTargetDependency */,
+			);
+			name = "Bhavitha's Feast FactoryTests";
+			productName = "Bhavitha's Feast FactoryTests";
+			productReference = 8607BB172BA636F900E3D039 /* Bhavitha's Feast FactoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8607BB202BA636F900E3D039 /* Bhavitha's Feast FactoryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8607BB312BA636F900E3D039 /* Build configuration list for PBXNativeTarget "Bhavitha's Feast FactoryUITests" */;
+			buildPhases = (
+				8607BB1D2BA636F900E3D039 /* Sources */,
+				8607BB1E2BA636F900E3D039 /* Frameworks */,
+				8607BB1F2BA636F900E3D039 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8607BB232BA636F900E3D039 /* PBXTargetDependency */,
+			);
+			name = "Bhavitha's Feast FactoryUITests";
+			productName = "Bhavitha's Feast FactoryUITests";
+			productReference = 8607BB212BA636F900E3D039 /* Bhavitha's Feast FactoryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8607BAFF2BA636F600E3D039 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					8607BB062BA636F600E3D039 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					8607BB162BA636F900E3D039 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 8607BB062BA636F600E3D039;
+					};
+					8607BB202BA636F900E3D039 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 8607BB062BA636F600E3D039;
+					};
+				};
+			};
+			buildConfigurationList = 8607BB022BA636F600E3D039 /* Build configuration list for PBXProject "Bhavitha's Feast Factory" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8607BAFE2BA636F600E3D039;
+			productRefGroup = 8607BB082BA636F600E3D039 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8607BB062BA636F600E3D039 /* Bhavitha's Feast Factory */,
+				8607BB162BA636F900E3D039 /* Bhavitha's Feast FactoryTests */,
+				8607BB202BA636F900E3D039 /* Bhavitha's Feast FactoryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8607BB052BA636F600E3D039 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8607BB122BA636F800E3D039 /* Preview Assets.xcassets in Resources */,
+				8607BB0F2BA636F800E3D039 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8607BB152BA636F900E3D039 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8607BB1F2BA636F900E3D039 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8607BB032BA636F600E3D039 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				862D07762BA6D4BD00941CEA /* AddExpenseView.swift in Sources */,
+				8607BB352BA63AA500E3D039 /* UtilitiesView.swift in Sources */,
+				8607BB3E2BA64F7600E3D039 /* IncomeSourceModel.swift in Sources */,
+				8607BB3C2BA64F5E00E3D039 /* IncomeListView.swift in Sources */,
+				8607BB3A2BA64F3E00E3D039 /* IncomeDetailsView.swift in Sources */,
+				862D07722BA6C90D00941CEA /* ExpenseListView.swift in Sources */,
+				8607BB382BA64CB800E3D039 /* FinancialDataManager.swift in Sources */,
+				862D07742BA6D46000941CEA /* ExpenseDetailsView.swift in Sources */,
+				8607BB402BA64F8D00E3D039 /* AddIncomeView.swift in Sources */,
+				8607BB0D2BA636F600E3D039 /* ContentView.swift in Sources */,
+				8607BB0B2BA636F600E3D039 /* Bhavitha_s_Feast_FactoryApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8607BB132BA636F900E3D039 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8607BB1C2BA636F900E3D039 /* Bhavitha_s_Feast_FactoryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8607BB1D2BA636F900E3D039 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8607BB282BA636F900E3D039 /* Bhavitha_s_Feast_FactoryUITestsLaunchTests.swift in Sources */,
+				8607BB262BA636F900E3D039 /* Bhavitha_s_Feast_FactoryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8607BB192BA636F900E3D039 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8607BB062BA636F600E3D039 /* Bhavitha's Feast Factory */;
+			targetProxy = 8607BB182BA636F900E3D039 /* PBXContainerItemProxy */;
+		};
+		8607BB232BA636F900E3D039 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8607BB062BA636F600E3D039 /* Bhavitha's Feast Factory */;
+			targetProxy = 8607BB222BA636F900E3D039 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8607BB292BA636F900E3D039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8607BB2A2BA636F900E3D039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8607BB2C2BA636F900E3D039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bhavitha's Feast Factory/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Bhavitha-s-Feast-Factory.Bhavitha-s-Feast-Factory";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8607BB2D2BA636F900E3D039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bhavitha's Feast Factory/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Bhavitha-s-Feast-Factory.Bhavitha-s-Feast-Factory";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8607BB2F2BA636F900E3D039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Bhavitha-s-Feast-Factory.Bhavitha-s-Feast-FactoryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bhavitha's Feast Factory.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bhavitha's Feast Factory";
+			};
+			name = Debug;
+		};
+		8607BB302BA636F900E3D039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Bhavitha-s-Feast-Factory.Bhavitha-s-Feast-FactoryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bhavitha's Feast Factory.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bhavitha's Feast Factory";
+			};
+			name = Release;
+		};
+		8607BB322BA636F900E3D039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Bhavitha-s-Feast-Factory.Bhavitha-s-Feast-FactoryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bhavitha's Feast Factory";
+			};
+			name = Debug;
+		};
+		8607BB332BA636F900E3D039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Bhavitha-s-Feast-Factory.Bhavitha-s-Feast-FactoryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bhavitha's Feast Factory";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8607BB022BA636F600E3D039 /* Build configuration list for PBXProject "Bhavitha's Feast Factory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8607BB292BA636F900E3D039 /* Debug */,
+				8607BB2A2BA636F900E3D039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8607BB2B2BA636F900E3D039 /* Build configuration list for PBXNativeTarget "Bhavitha's Feast Factory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8607BB2C2BA636F900E3D039 /* Debug */,
+				8607BB2D2BA636F900E3D039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8607BB2E2BA636F900E3D039 /* Build configuration list for PBXNativeTarget "Bhavitha's Feast FactoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8607BB2F2BA636F900E3D039 /* Debug */,
+				8607BB302BA636F900E3D039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8607BB312BA636F900E3D039 /* Build configuration list for PBXNativeTarget "Bhavitha's Feast FactoryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8607BB322BA636F900E3D039 /* Debug */,
+				8607BB332BA636F900E3D039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8607BAFF2BA636F600E3D039 /* Project object */;
+}
